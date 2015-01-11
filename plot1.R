@@ -3,7 +3,7 @@
 # Reading data using the read.csv(..) function and reading only the usefull dates
 # passing ; separator
 # indicating column type
-data <- read.csv("D:/Google Drive/Dottorato/Anno I/Corsi/Exploratory Data Analysis/Week 1/ExData_Plotting1/household_power_consumption.txt", 
+data <- read.csv("household_power_consumption.txt", 
                  skip = 66636, 
                  nrows = 2880,
                  sep=";")
